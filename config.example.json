@@ -1,0 +1,137 @@
+{
+  "_comment": "Copy to config.json. 'secondary' = current secondary-market value; update quarterly from Bottle Blue Book / Bourbon Brown Book / BRBNFNDR. Deal tiers: STEAL = <= msrp*1.15 or <= 65% of secondary; GOOD = <= 85% of secondary; FAIR = <= 100%.",
+
+  "recipients": [
+    "you@example.com",
+    "dad@example.com",
+    "sibling@example.com"
+  ],
+
+  "smtp": {
+    "_comment": "Gmail: smtp.gmail.com:587 + App Password (myaccount.google.com/apppasswords, needs 2FA).",
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "username": "you@gmail.com",
+    "password": "your-app-password-here",
+    "from_address": "you@gmail.com"
+  },
+
+  "site_export": "site/data/deals.json",
+
+  "deal_rules": {
+    "msrp_tolerance": 1.15,
+    "steal_ratio": 0.65,
+    "good_ratio": 0.85,
+    "fair_ratio": 1.0,
+    "include_fair_in_digest": false
+  },
+
+  "products": [
+    {
+      "name": "Michter's 10 Year Bourbon",
+      "keywords": ["michter", "10", "bourbon"],
+      "exclude_keywords": ["rye", "sour mash", "20 year", "25 year", "toasted"],
+      "msrp": 195,
+      "secondary": 280,
+      "priority": true
+    },
+    {
+      "name": "Buffalo Trace Bourbon",
+      "keywords": ["buffalo trace", "bourbon"],
+      "exclude_keywords": ["bundle", "ofc", "vintage", "kosher", "experimental", "single estate"],
+      "msrp": 30,
+      "secondary": 45,
+      "priority": true
+    },
+    {
+      "name": "Eagle Rare 10",
+      "keywords": ["eagle rare"],
+      "exclude_keywords": ["12", "17", "25", "double", "bundle"],
+      "msrp": 50,
+      "secondary": 85,
+      "priority": false
+    },
+    {
+      "name": "Eagle Rare 12",
+      "keywords": ["eagle rare", "12"],
+      "exclude_keywords": ["10", "17", "25", "double", "bundle"],
+      "msrp": 50,
+      "secondary": 145,
+      "priority": true
+    },
+    {
+      "name": "Eagle Rare 17 (BTAC)",
+      "keywords": ["eagle rare", "17"],
+      "exclude_keywords": ["10", "12", "25", "double", "bundle"],
+      "msrp": 150,
+      "secondary": 1900,
+      "priority": true
+    },
+    {
+      "name": "Blanton's Original",
+      "keywords": ["blanton"],
+      "exclude_keywords": ["gold", "straight from the barrel", "silver", "takara", "bundle", "collection"],
+      "msrp": 75,
+      "secondary": 105,
+      "priority": false
+    },
+    {
+      "name": "Weller Special Reserve",
+      "keywords": ["weller", "special reserve"],
+      "exclude_keywords": ["bundle"],
+      "msrp": 30,
+      "secondary": 50,
+      "priority": false
+    },
+    {
+      "name": "Weller Antique 107",
+      "keywords": ["weller", "107"],
+      "exclude_keywords": ["bundle"],
+      "msrp": 60,
+      "secondary": 95,
+      "priority": false
+    },
+    {
+      "name": "Weller 12 Year",
+      "keywords": ["weller", "12"],
+      "exclude_keywords": ["bundle", "107"],
+      "msrp": 50,
+      "secondary": 110,
+      "priority": false
+    },
+    {
+      "name": "E.H. Taylor Small Batch",
+      "keywords": ["taylor", "small batch"],
+      "exclude_keywords": ["bundle", "barrel proof", "single barrel", "rye"],
+      "msrp": 60,
+      "secondary": 85,
+      "priority": false
+    },
+    {
+      "name": "Stagg (Jr.)",
+      "keywords": ["stagg"],
+      "exclude_keywords": ["george t", "bundle"],
+      "msrp": 70,
+      "secondary": 120,
+      "priority": false
+    }
+  ],
+
+  "retailers": [
+    { "name": "DMV Spirits (DC — Spring Valley)", "type": "html", "url": "https://www.dmvspirits.com/s/shop", "vetted": true },
+    { "name": "VA ABC Inventory Tracker (ours)", "type": "va_abc", "min_interval_minutes": 60, "vetted": true },
+    { "name": "VA ABC Lottery Announcements", "type": "watch", "url": "https://www.abc.virginia.gov/products/limited-availability/lottery", "vetted": true },
+    { "name": "VA ABC Product List Downloads", "type": "watch", "url": "https://www.abc.virginia.gov/products/products-faqs/product-downloads", "vetted": false },
+    { "name": "VABourbon (external backup — enable if wanted)", "type": "watch", "url": "https://vabourbon.com/inventory/", "vetted": false },
+    { "name": "El Cerrito Liquor (CA — independent)", "type": "shopify", "url": "https://elcerritoliquor.com", "max_pages": 8, "vetted": true },
+    { "name": "Buffalo Trace Product Availability", "type": "watch", "url": "https://www.buffalotracedistillery.com/visit-us/product-availability/", "vetted": true },
+    { "name": "Virginia ABC — Michter's 10 page (lottery channel; page-watch is low signal)", "type": "html", "url": "https://www.abc.virginia.gov/products/bourbon/michters-10-yr-old-bourbon", "vetted": false },
+
+    { "name": "Montgomery County MD ABS — add your store's page, then vet", "type": "html", "url": "https://www.montgomerycountymd.gov/abs/", "vetted": false },
+    { "name": "Seelbach's (national — enable only if you want sale coverage)", "type": "shopify", "url": "https://seelbachs.com", "max_pages": 6, "vetted": false },
+    { "name": "Wooden Cork (national aggregator — disabled per family strategy)", "type": "shopify", "url": "https://woodencork.com", "max_pages": 8, "vetted": false },
+    { "name": "The Barrel Tap (national aggregator — disabled)", "type": "shopify", "url": "https://www.thebarreltap.com", "max_pages": 8, "vetted": false },
+    { "name": "Sip Whiskey (national aggregator — disabled)", "type": "shopify", "url": "https://sipwhiskey.com", "max_pages": 6, "vetted": false },
+    { "name": "LoveScotch (national aggregator — disabled)", "type": "shopify", "url": "https://lovescotch.com", "max_pages": 8, "vetted": false }
+  ]
+}

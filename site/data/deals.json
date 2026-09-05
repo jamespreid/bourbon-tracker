@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-09-05T14:16:52",
+  "sample": false,
+  "products": [
+    {
+      "name": "Michter's 10 Year Bourbon",
+      "msrp": 195,
+      "secondary": 280,
+      "priority": true
+    },
+    {
+      "name": "Buffalo Trace Bourbon",
+      "msrp": 30,
+      "secondary": 45,
+      "priority": true
+    },
+    {
+      "name": "Eagle Rare 12",
+      "msrp": 50,
+      "secondary": 145,
+      "priority": true
+    },
+    {
+      "name": "Eagle Rare 17 (BTAC)",
+      "msrp": 150,
+      "secondary": 1900,
+      "priority": true
+    },
+    {
+      "name": "Blanton's Original",
+      "msrp": 75,
+      "secondary": 105,
+      "priority": false
+    },
+    {
+      "name": "Weller Special Reserve",
+      "msrp": 30,
+      "secondary": 50,
+      "priority": false
+    },
+    {
+      "name": "Weller Antique 107",
+      "msrp": 60,
+      "secondary": 95,
+      "priority": false
+    },
+    {
+      "name": "E.H. Taylor Small Batch",
+      "msrp": 60,
+      "secondary": 85,
+      "priority": false
+    },
+    {
+      "name": "Stagg (Jr.)",
+      "msrp": 70,
+      "secondary": 120,
+      "priority": false
+    },
+    {
+      "name": "Weller Full Proof",
+      "msrp": 60,
+      "secondary": 140,
+      "priority": true
+    },
+    {
+      "name": "Weller C.Y.P.B.",
+      "msrp": 60,
+      "secondary": 220,
+      "priority": false
+    },
+    {
+      "name": "E.H. Taylor Single Barrel",
+      "msrp": 70,
+      "secondary": 160,
+      "priority": false
+    },
+    {
+      "name": "E.H. Taylor Barrel Proof",
+      "msrp": 80,
+      "secondary": 250,
+      "priority": true
+    },
+    {
+      "name": "Blanton's Gold",
+      "msrp": 130,
+      "secondary": 230,
+      "priority": false
+    },
+    {
+      "name": "Blanton's Straight From the Barrel",
+      "msrp": 150,
+      "secondary": 240,
+      "priority": false
+    },
+    {
+      "name": "Elijah Craig Barrel Proof",
+      "msrp": 75,
+      "secondary": 110,
+      "priority": false
+    },
+    {
+      "name": "Russell's Reserve 13 Year",
+      "msrp": 200,
+      "secondary": 300,
+      "priority": false
+    },
+    {
+      "name": "Michter's Toasted Barrel Bourbon",
+      "msrp": 110,
+      "secondary": 200,
+      "priority": false
+    },
+    {
+      "name": "Little Book",
+      "msrp": 150,
+      "secondary": 200,
+      "priority": false
+    },
+    {
+      "name": "Old Fitzgerald 7 Year Bottled-in-Bond",
+      "msrp": 70,
+      "secondary": 150,
+      "priority": true
+    },
+    {
+      "name": "George T. Stagg (BTAC)",
+      "msrp": 150,
+      "secondary": 1100,
+      "priority": true
+    },
+    {
+      "name": "William Larue Weller (BTAC)",
+      "msrp": 150,
+      "secondary": 950,
+      "priority": true
+    },
+    {
+      "name": "Four Roses Limited Edition Small Batch",
+      "msrp": 170,
+      "secondary": 450,
+      "priority": true
+    },
+    {
+      "name": "Old Forester Birthday Bourbon",
+      "msrp": 150,
+      "secondary": 450,
+      "priority": true
+    },
+    {
+      "name": "Old Fitzgerald Bottled-in-Bond (decanter)",
+      "msrp": 150,
+      "secondary": 400,
+      "priority": false
+    },
+    {
+      "name": "Parker's Heritage Collection",
+      "msrp": 200,
+      "secondary": 400,
+      "priority": false
+    },
+    {
+      "name": "Pappy Van Winkle 15",
+      "msrp": 150,
+      "secondary": 1600,
+      "priority": true
+    },
+    {
+      "name": "Van Winkle Special Reserve 12",
+      "msrp": 100,
+      "secondary": 700,
+      "priority": true
+    },
+    {
+      "name": "Old Rip Van Winkle 10",
+      "msrp": 80,
+      "secondary": 550,
+      "priority": true
+    }
+  ],
+  "listings": []
+}

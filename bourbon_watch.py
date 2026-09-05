@@ -27,7 +27,7 @@ import re
 import smtplib
 import sys
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -123,7 +123,32 @@ def norm(s):
     s = s.lower()
     # collapse dotted acronyms so "C.Y.P.B." -> "cypb", "E.H." -> "eh", "W.L." -> "wl"
     s = re.sub(r"\b(?:[a-z]\.){2,}", lambda m: m.group(0).replace(".", ""), s)
+    # split digit/letter runs so "375ml" -> "375 ml", "50ml" -> "50 ml", "1.75l" -> "1 75 l"
+    s = re.sub(r"(?<=\d)(?=[a-z])|(?<=[a-z])(?=\d)", " ", s)
     return re.sub(r"[^a-z0-9 ]", " ", s)
+
+
+# Titles containing any of these are never a target bottle, whatever else they say.
+GLOBAL_EXCLUDES = ["tequila", "corazon", "expresiones", "mezcal", "rum", "cognac",
+                   "empty", "empty bottle", "damaged", "raffle", "ticket", "entry",
+                   "gift set", "bundle", "combo", "sampler", "mini", "50 ml", "100 ml",
+                   "200 ml", "375", "1 75", "poland", "japan", "export", "taiwan"]
+BUNDLE_RE = re.compile(r"\s\+\s|\s&\s(?![a-z]*\s*(?:sons?|co\b))")   # "A + B", "A & B"
+YEAR_RE = re.compile(r"(?<!\d)(19\d\d|20\d\d)(?!\d)")
+
+
+def title_is_noise(raw_title, rules):
+    """Bundles, vintages, tequila-finished-in-bourbon-barrels, minis, etc."""
+    t = norm(raw_title)
+    if any(kw_in(t, x) for x in GLOBAL_EXCLUDES):
+        return True
+    if BUNDLE_RE.search(raw_title):
+        return True
+    min_year = rules.get("exclude_vintage_before", 2022)
+    years = [int(y) for y in YEAR_RE.findall(raw_title)]
+    if years and min(years) < min_year:
+        return True
+    return False
 
 
 def kw_in(text, kw):
@@ -144,7 +169,9 @@ def product_matches(text, p):
     return True
 
 
-def match_product(title, products):
+def match_product(title, products, rules=None):
+    if title_is_noise(title, rules or {}):
+        return None
     t = norm(title)
     for p in products:
         if product_matches(t, p):
@@ -191,7 +218,7 @@ def check_shopify(retailer, products, rules, session):
         if not items:
             break
         for item in items:
-            prod = match_product(item.get("title", ""), products)
+            prod = match_product(item.get("title", ""), products, rules)
             if not prod:
                 continue
             for v in item.get("variants", []):
@@ -244,7 +271,7 @@ def check_html_page(retailer, products, rules, session):
         bnorm = norm(block)
         if re.search(r"sold\s*out|out\s*of\s*stock|unavailable|notify me", bnorm):
             continue
-        prod = match_product(block, products)
+        prod = match_product(block, products, rules)
         if not prod:
             continue
         prices = [float(m.replace(",", "")) for m in re.findall(r"\$\s*([\d,]+\.?\d{0,2})", block)]
@@ -293,7 +320,7 @@ def check_watch_page(retailer, products, rules, session):
 
     hit = {}
     for block in blocks:
-        prod = match_product(block, products)
+        prod = match_product(block, products, rules)
         if prod and prod["name"] not in hit:
             hit[prod["name"]] = (prod, block[:140])
 
@@ -420,7 +447,7 @@ def write_site_export(cfg, findings):
     path = (BASE_DIR / export_path).resolve()
     path.parent.mkdir(parents=True, exist_ok=True)
     payload = {
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "sample": False,
         "products": [
             {

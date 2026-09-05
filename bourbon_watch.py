@@ -81,7 +81,7 @@ def classify_deal(price, prod, rules):
     GOOD : price <= secondary * good_ratio
     FAIR : price <= secondary * fair_ratio
     None : overpriced, ignore
-    Hard cap: price > msrp * max_msrp_multiple (default 1.5) -> None, always.
+    Hard cap: price > prod["max_price"] (or msrp * max_msrp_multiple if unset) -> None.
     """
     msrp = prod.get("msrp")
     secondary = prod.get("secondary")
@@ -92,8 +92,11 @@ def classify_deal(price, prod, rules):
 
     # Hard ceiling: never call anything a deal above max_msrp_multiple x MSRP,
     # no matter how it compares to secondary. "Fair vs. flippers" is not fair retail.
-    cap = rules.get("max_msrp_multiple", 1.5)
-    if msrp and cap and price > msrp * cap:
+    # Per-bottle ceiling wins; otherwise fall back to the global multiplier.
+    ceiling = prod.get("max_price")
+    if ceiling is None and msrp and rules.get("max_msrp_multiple"):
+        ceiling = msrp * rules["max_msrp_multiple"]
+    if ceiling and price > ceiling:
         return None
 
     if msrp and price <= msrp * tol:
@@ -201,6 +204,24 @@ def make_finding(prod, title, price, retailer, url, rules, note=None):
     }
 
 
+AUCTION_RE = re.compile(r"auction|points?[ _-]?(?:bid|auction|only)|raffle|lottery|drawing|bid", re.I)
+
+
+def _is_auction_item(item):
+    """Skip Shopify products sold via points auctions, raffles, or lotteries.
+    (e.g. Bitters & Bottles' Points Auction: the listed price is the retail price
+    you get to pay only if you win the bid, not a buy-it-now price.)"""
+    tags = item.get("tags", [])
+    if isinstance(tags, str):
+        tags = tags.split(",")
+    fields = [item.get("title", ""), item.get("product_type", ""), item.get("handle", ""),
+              item.get("vendor", "")] + [t.strip() for t in tags]
+    if any(AUCTION_RE.search(f or "") for f in fields):
+        return True
+    body = (item.get("body_html") or "")[:600]
+    return bool(re.search(r"points auction|place (?:a|your) bid|bid(?:ding)? (?:closes|ends)|winning bid", body, re.I))
+
+
 def check_shopify(retailer, products, rules, session):
     """Read a Shopify store's public /products.json catalog (reliable prices + stock)."""
     findings = []
@@ -218,20 +239,28 @@ def check_shopify(retailer, products, rules, session):
         if not items:
             break
         for item in items:
+            if _is_auction_item(item):
+                continue
             prod = match_product(item.get("title", ""), products, rules)
             if not prod:
                 continue
+            prices = []
             for v in item.get("variants", []):
                 if not v.get("available", False):
                     continue
+                # skip small formats hiding in variant titles ("375ml", "50ml", "Mini")
+                if title_is_noise(v.get("title") or "", rules):
+                    continue
                 try:
-                    price = float(v["price"])
+                    prices.append(float(v["price"]))
                 except (KeyError, ValueError, TypeError):
                     continue
-                f = make_finding(prod, item["title"], price, retailer["name"],
-                                 f"{base}/products/{item['handle']}", rules)
-                if f:
-                    findings.append(f)
+            if not prices:
+                continue
+            f = make_finding(prod, item["title"], min(prices), retailer["name"],
+                             f"{base}/products/{item['handle']}", rules)
+            if f:
+                findings.append(f)
         page += 1
         time.sleep(1)
     return findings
@@ -389,6 +418,7 @@ def send_email(cfg, subject, html_body):
 
 
 def send_instant_alert(cfg, deals):
+    deals = _dedupe_listings(deals)
     rows = "".join(deal_row(d) for d in deals)
     body = (
         "<h2>&#128293; Priority bottle alert</h2>"
@@ -413,7 +443,7 @@ def send_digest(cfg, state):
     else:
         best = {}
         for d in recent:
-            key = (d["retailer"], d["title"])
+            key = (d["retailer"], d["product"])
             if key not in best or (d["price"] or 0) < (best[key]["price"] or 0):
                 best[key] = d
         order = {"STEAL": 0, "GOOD": 1, "FAIR": 2, "WATCH": 3}
@@ -435,6 +465,18 @@ def send_digest(cfg, state):
 # ---------------------------------------------------------------------------
 # Website export
 # ---------------------------------------------------------------------------
+
+def _dedupe_listings(findings):
+    """One card per bottle per shop: keep the lowest-priced priced finding."""
+    best = {}
+    for f in findings:
+        if f.get("price") is None:
+            continue
+        k = (f["product"], f["retailer"])
+        if k not in best or f["price"] < best[k]["price"]:
+            best[k] = f
+    return sorted(best.values(), key=lambda f: (f["product"], f["price"]))
+
 
 def write_site_export(cfg, findings):
     """
@@ -468,7 +510,7 @@ def write_site_export(cfg, findings):
                 "tier": f["tier"],
                 "note": f.get("note"),
             }
-            for f in findings if f.get("price") is not None
+            for f in _dedupe_listings(findings)
         ],
     }
     with open(path, "w") as fh:

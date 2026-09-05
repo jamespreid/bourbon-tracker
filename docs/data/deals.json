@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-05T19:15:52Z",
+  "generated_at": "2026-09-05T19:28:43Z",
   "sample": false,
   "products": [
     {
       "name": "Michter's 10 Year Bourbon",
       "msrp": 195,
-      "secondary": 280,
+      "secondary": 275,
       "priority": true
     },
     {
@@ -17,19 +17,19 @@
     {
       "name": "Eagle Rare 12",
       "msrp": 50,
-      "secondary": 145,
+      "secondary": 130,
       "priority": true
     },
     {
       "name": "Eagle Rare 17 (BTAC)",
       "msrp": 150,
-      "secondary": 1900,
+      "secondary": 900,
       "priority": true
     },
     {
       "name": "Blanton's Original",
       "msrp": 75,
-      "secondary": 105,
+      "secondary": 95,
       "priority": false
     },
     {
@@ -41,7 +41,7 @@
     {
       "name": "Weller Antique 107",
       "msrp": 60,
-      "secondary": 95,
+      "secondary": 90,
       "priority": false
     },
     {
@@ -53,13 +53,13 @@
     {
       "name": "Stagg (Jr.)",
       "msrp": 70,
-      "secondary": 120,
+      "secondary": 150,
       "priority": false
     },
     {
       "name": "Weller Full Proof",
       "msrp": 60,
-      "secondary": 140,
+      "secondary": 130,
       "priority": true
     },
     {
@@ -71,73 +71,67 @@
     {
       "name": "E.H. Taylor Single Barrel",
       "msrp": 70,
-      "secondary": 160,
+      "secondary": 130,
       "priority": false
     },
     {
       "name": "E.H. Taylor Barrel Proof",
       "msrp": 80,
-      "secondary": 250,
+      "secondary": 210,
       "priority": true
     },
     {
       "name": "Blanton's Gold",
       "msrp": 130,
-      "secondary": 230,
+      "secondary": 180,
       "priority": false
     },
     {
       "name": "Blanton's Straight From the Barrel",
       "msrp": 150,
-      "secondary": 240,
-      "priority": false
-    },
-    {
-      "name": "Elijah Craig Barrel Proof",
-      "msrp": 75,
-      "secondary": 110,
+      "secondary": 200,
       "priority": false
     },
     {
       "name": "Russell's Reserve 13 Year",
       "msrp": 200,
-      "secondary": 300,
+      "secondary": 280,
       "priority": false
     },
     {
       "name": "Michter's Toasted Barrel Bourbon",
       "msrp": 110,
-      "secondary": 200,
+      "secondary": 180,
       "priority": false
     },
     {
       "name": "Little Book",
       "msrp": 150,
-      "secondary": 200,
+      "secondary": 190,
       "priority": false
     },
     {
       "name": "Old Fitzgerald 7 Year Bottled-in-Bond",
       "msrp": 70,
-      "secondary": 150,
+      "secondary": 130,
       "priority": true
     },
     {
       "name": "George T. Stagg (BTAC)",
       "msrp": 150,
-      "secondary": 1100,
+      "secondary": 750,
       "priority": true
     },
     {
       "name": "William Larue Weller (BTAC)",
       "msrp": 150,
-      "secondary": 950,
+      "secondary": 750,
       "priority": true
     },
     {
       "name": "Four Roses Limited Edition Small Batch",
       "msrp": 170,
-      "secondary": 450,
+      "secondary": 380,
       "priority": true
     },
     {
@@ -155,36 +149,36 @@
     {
       "name": "Parker's Heritage Collection",
       "msrp": 200,
-      "secondary": 400,
+      "secondary": 380,
       "priority": false
     },
     {
       "name": "Pappy Van Winkle 15",
       "msrp": 150,
-      "secondary": 1600,
+      "secondary": 1300,
       "priority": true
     },
     {
       "name": "Van Winkle Special Reserve 12",
       "msrp": 100,
-      "secondary": 700,
+      "secondary": 600,
       "priority": true
     },
     {
       "name": "Old Rip Van Winkle 10",
       "msrp": 80,
-      "secondary": 550,
+      "secondary": 450,
       "priority": true
     }
   ],
   "listings": [
     {
-      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
-      "title": "Old Fitzgerald 7 yr Bottled-in Bond Bourbon Whiskey 700ml",
-      "price": 64.99,
-      "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
-      "url": "https://bassins.com/products/old-fitzgerald-7-yr-bottled-in-bond-bourbon-whiskey-700ml",
-      "tier": "STEAL",
+      "product": "Blanton's Original",
+      "title": "Blanton's Single Barrel Bourbon",
+      "price": 89.5,
+      "retailer": "Bitters & Bottles (SF \u2014 independent)",
+      "url": "https://bittersandbottles.com/products/blantons-single-barrel-bourbon",
+      "tier": "FAIR",
       "note": null
     },
     {
@@ -197,57 +191,12 @@
       "note": null
     },
     {
-      "product": "Russell's Reserve 13 Year",
-      "title": "Russell's Reserve 13 Year 45th Anniversary Bourbon",
-      "price": 199.0,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/russells-reserve-13-year-45th-anniversary-bourbon-5",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Russell's Reserve 13 Year",
-      "title": "Russell's Reserve 13 Year 45th Anniversary Bourbon",
-      "price": 199.0,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/russells-reserve-13-year-45th-anniversary-bourbon-4",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Russell's Reserve 13 Year",
-      "title": "Russell's Reserve 13 Year 45th Anniversary Bourbon",
-      "price": 199.0,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/russells-reserve-13-year-45th-anniversary-bourbon-3",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Russell's Reserve 13 Year",
-      "title": "Russell's Reserve 13 Year 45th Anniversary Bourbon",
-      "price": 199.0,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/russells-reserve-13-year-45th-anniversary-bourbon-2",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Russell's Reserve 13 Year",
-      "title": "Russell's Reserve 13 Year 45th Anniversary Bourbon",
-      "price": 199.0,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/russells-reserve-13-year-45th-anniversary-bourbon-1",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Russell's Reserve 13 Year",
-      "title": "Russell's Reserve 13 Year 45th Anniversary Bourbon",
-      "price": 199.0,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/russells-reserve-13-year-45th-anniversary-bourbon",
-      "tier": "STEAL",
+      "product": "Little Book",
+      "title": "Little Book Chapter 10 'All The Wiser' 2026 Release",
+      "price": 179.99,
+      "retailer": "Nestor Liquor (LA \u2014 independent)",
+      "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
+      "tier": "FAIR",
       "note": null
     },
     {
@@ -260,119 +209,11 @@
       "note": null
     },
     {
-      "product": "Little Book",
-      "title": "Little Book \"The Infinite\" Edition Two Whiskey",
-      "price": 199.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/little-book-the-infinite-edition-two-whiskey",
-      "tier": "FAIR",
-      "note": null
-    },
-    {
-      "product": "Buffalo Trace Bourbon",
-      "title": "Buffalo Trace 'Single Barrel Select 2025' Bourbon",
-      "price": 16.0,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/buffalo-trace-single-barrel-select-2025-bourbon",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Blanton's Original",
-      "title": "Blanton's Single Barrel Bourbon",
-      "price": 89.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/blantons-single-barrel-bourbon",
-      "tier": "FAIR",
-      "note": null
-    },
-    {
-      "product": "Elijah Craig Barrel Proof",
-      "title": "Elijah Craig Barrel Proof B524 Bourbon",
-      "price": 72.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/elijah-craig-barrel-proof-b524-bourbon",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Elijah Craig Barrel Proof",
-      "title": "Elijah Craig \"B&B 7043379\" Single Barrel Proof Bourbon",
-      "price": 79.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/elijah-craig-b-b-single-barrel-7043379-barrel-proof-bourbon",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Little Book",
-      "title": "Little Book Chapter 10 'All The Wiser' 2026 Release",
-      "price": 179.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
-      "tier": "FAIR",
-      "note": null
-    },
-    {
-      "product": "Elijah Craig Barrel Proof",
-      "title": "Elijah Craig Barrel Proof Bourbon Batch C925",
-      "price": 79.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/elijah-craig-barrel-proof-bourbon-batch-c925",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Little Book",
-      "title": "Little Book Chapter 9 'None For Granted'",
-      "price": 199.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/little-book-chapter-9-none-for-granted",
-      "tier": "FAIR",
-      "note": null
-    },
-    {
-      "product": "Elijah Craig Barrel Proof",
-      "title": "Elijah Craig Barrel Proof Batch A125",
-      "price": 79.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/elijah-craig-barrel-proof-batch-a125-pre-order-now",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Elijah Craig Barrel Proof",
-      "title": "Elijah Craig Barrel Proof 'BLUEGRASS GRENADE' Private Select 116.7 PF",
-      "price": 84.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/elijah-craig-barrel-proof-bluegrass-grenade-private-select-116-7",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Elijah Craig Barrel Proof",
-      "title": "Elijah Craig Barrel Proof Batch B524",
-      "price": 79.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/elijah-craig-barrel-proof-batch-b524",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Elijah Craig Barrel Proof",
-      "title": "Elijah Craig Barrel Proof Batch #A124",
-      "price": 79.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/elijah-craig-barrel-proof-batch-a124",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Elijah Craig Barrel Proof",
-      "title": "Elijah Craig Barrel Proof Batch# C922 750ml",
-      "price": 79.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/elijah-craig-barrel-proof-batch-c922",
+      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
+      "title": "Old Fitzgerald 7 yr Bottled-in Bond Bourbon Whiskey 700ml",
+      "price": 64.99,
+      "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
+      "url": "https://bassins.com/products/old-fitzgerald-7-yr-bottled-in-bond-bourbon-whiskey-700ml",
       "tier": "STEAL",
       "note": null
     }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bourbon Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="site-header">
+  <h1 class="wordmark">Bourbon&nbsp;Watch</h1>
+  <p class="scan-meta" id="scan-meta" aria-live="polite"></p>
+</header>
+
+<main id="main">
+  <p class="loading" id="loading">Loading the latest scan&hellip;</p>
+
+  <section id="listings-section" hidden>
+    <h2 class="section-title">Live listings <span class="count-chip" id="listing-count"></span></h2>
+    <div class="cards" id="listings"></div>
+  </section>
+
+  <section id="watchlist-section" hidden>
+    <h2 class="section-title">The watchlist</h2>
+    <p class="section-sub">What we&rsquo;re hunting &mdash; MSRP&nbsp;/&nbsp;secondary</p>
+    <div class="watchlist" id="watchlist"></div>
+  </section>
+
+  <section id="history-section" hidden>
+    <h2 class="section-title">Price history <span class="section-sub-inline">last 90 days</span></h2>
+    <div class="history-grid" id="history"></div>
+  </section>
+
+  <div class="error-panel" id="error-panel" hidden>
+    <p>Couldn&rsquo;t load the latest scan &mdash; try again in a minute.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="legend">
+    <div class="legend-row"><span class="badge badge-steal">STEAL</span><span>At or near MSRP, or &le;65% of secondary market</span></div>
+    <div class="legend-row"><span class="badge badge-good">GOOD</span><span>&le;85% of secondary market</span></div>
+    <div class="legend-row"><span class="badge badge-fair">FAIR</span><span>&le;100% of secondary market</span></div>
+    <p class="legend-note">Nothing above 1.5&times; MSRP is ever shown. Secondary = current flipper market value; MSRP = distillery suggested price.</p>
+  </div>
+  <p class="footer-line">Scanned from vetted independent retailers only &mdash; no aggregators.</p>
+  <p class="footer-line">VA&nbsp;ABC lottery &amp; inventory is tracked separately via VABourbon.</p>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T03:02:57Z",
+  "generated_at": "2026-09-09T04:03:51Z",
   "sample": false,
   "products": [
     {
@@ -188,6 +188,15 @@
       "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
       "url": "https://bassins.com/products/blantons-single-barrel-bourbon-whiskey-750ml",
       "tier": "FAIR",
+      "note": null
+    },
+    {
+      "product": "Little Book",
+      "title": "Little Book Chapter 10 \u2018All the Wiser\u2019 Blended Straight Whiskey 2026 Release",
+      "price": 159.95,
+      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
+      "url": "https://elcerritoliquor.com/products/little-book-chapter-10-all-the-wiser-blended-straight-whiskey-2026-release",
+      "tier": "STEAL",
       "note": null
     },
     {

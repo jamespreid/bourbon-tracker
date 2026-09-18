@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T04:04:01Z",
+  "generated_at": "2026-09-18T05:02:23Z",
   "sample": false,
   "products": [
     {
@@ -196,15 +196,6 @@
       "price": 65.5,
       "retailer": "Bitters & Bottles (SF \u2014 independent)",
       "url": "https://bittersandbottles.com/products/eh-taylor-small-batch-bottled-in-bond-bourbon",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Little Book",
-      "title": "2026 Booker's Little Book Chapter 10 All The Wiser Straight Bourbon Whisky",
-      "price": 159.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/little-book-chapter-10-all-the-wiser-blended-straight-whiskey-2026-release",
       "tier": "STEAL",
       "note": null
     },

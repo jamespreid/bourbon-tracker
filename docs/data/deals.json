@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T02:03:29Z",
+  "generated_at": "2026-09-23T03:02:47Z",
   "sample": false,
   "products": [
     {
@@ -178,15 +178,6 @@
       "price": 89.5,
       "retailer": "Bitters & Bottles (SF \u2014 independent)",
       "url": "https://bittersandbottles.com/products/blantons-single-barrel-bourbon",
-      "tier": "FAIR",
-      "note": null
-    },
-    {
-      "product": "Blanton's Original",
-      "title": "Blanton's Single Barrel Bourbon Whiskey 750ml",
-      "price": 89.99,
-      "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
-      "url": "https://bassins.com/products/blantons-single-barrel-bourbon-whiskey-750ml",
       "tier": "FAIR",
       "note": null
     },

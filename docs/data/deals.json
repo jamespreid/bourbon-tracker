@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T21:03:14Z",
+  "generated_at": "2026-09-24T22:02:56Z",
   "sample": false,
   "products": [
     {
@@ -182,6 +182,15 @@
       "note": null
     },
     {
+      "product": "Blanton's Original",
+      "title": "Blanton's Single Barrel Bourbon Whiskey 750ml",
+      "price": 89.99,
+      "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
+      "url": "https://bassins.com/products/blantons-single-barrel-bourbon-whiskey-750ml",
+      "tier": "FAIR",
+      "note": null
+    },
+    {
       "product": "E.H. Taylor Small Batch",
       "title": "EH Taylor Small Batch Bottled in Bond Bourbon",
       "price": 65.5,
@@ -214,6 +223,15 @@
       "price": 54.5,
       "retailer": "Bitters & Bottles (SF \u2014 independent)",
       "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
+      "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
+      "title": "Old Fitzgerald 7 yr Bottled-in Bond Bourbon Whiskey 700ml",
+      "price": 64.99,
+      "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
+      "url": "https://bassins.com/products/old-fitzgerald-7-yr-bottled-in-bond-bourbon-whiskey-700ml",
       "tier": "STEAL",
       "note": null
     }

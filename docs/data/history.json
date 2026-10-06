@@ -154,6 +154,11 @@
       "d": "2026-10-05",
       "p": 54.5,
       "r": "Bitters & Bottles (SF \u2014 independent)"
+    },
+    {
+      "d": "2026-10-06",
+      "p": 54.5,
+      "r": "Bitters & Bottles (SF \u2014 independent)"
     }
   ],
   "Blanton's Original": [
@@ -311,6 +316,11 @@
       "d": "2026-10-05",
       "p": 89.5,
       "r": "Bitters & Bottles (SF \u2014 independent)"
+    },
+    {
+      "d": "2026-10-06",
+      "p": 89.5,
+      "r": "Bitters & Bottles (SF \u2014 independent)"
     }
   ],
   "Little Book": [
@@ -466,6 +476,11 @@
     },
     {
       "d": "2026-10-05",
+      "p": 159.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-10-06",
       "p": 159.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
     }

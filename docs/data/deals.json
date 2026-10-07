@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T18:00:54Z",
+  "generated_at": "2026-10-07T19:01:01Z",
   "sample": false,
   "products": [
     {
@@ -173,21 +173,21 @@
   ],
   "listings": [
     {
-      "product": "Blanton's Original",
-      "title": "Blanton's Single Barrel Bourbon",
-      "price": 89.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/blantons-single-barrel-bourbon",
-      "tier": "FAIR",
+      "product": "Little Book",
+      "title": "2026 Booker's Little Book Chapter 10 All The Wiser Straight Bourbon Whisky",
+      "price": 159.95,
+      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
+      "url": "https://elcerritoliquor.com/products/little-book-chapter-10-all-the-wiser-blended-straight-whiskey-2026-release",
+      "tier": "STEAL",
       "note": null
     },
     {
-      "product": "E.H. Taylor Small Batch",
-      "title": "EH Taylor Small Batch Bottled in Bond Bourbon",
-      "price": 65.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/eh-taylor-small-batch-bottled-in-bond-bourbon",
-      "tier": "STEAL",
+      "product": "Little Book",
+      "title": "Little Book Chapter 10 'All The Wiser' 2026 Release",
+      "price": 179.99,
+      "retailer": "Nestor Liquor (LA \u2014 independent)",
+      "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
+      "tier": "FAIR",
       "note": null
     },
     {
@@ -197,6 +197,15 @@
       "retailer": "Bitters & Bottles (SF \u2014 independent)",
       "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
       "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "Stagg (Jr.)",
+      "title": "Stagg Batch 26B 125.2 Proof Kentucky Straight Bourbon Whiskey 750ml",
+      "price": 138.95,
+      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
+      "url": "https://elcerritoliquor.com/products/stagg-jr-barrel-proof-straight-bourbon-batch-26b-125-2-proof",
+      "tier": "FAIR",
       "note": null
     }
   ]

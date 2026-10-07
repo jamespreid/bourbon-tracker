@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T03:02:53Z",
+  "generated_at": "2026-10-07T04:03:54Z",
   "sample": false,
   "products": [
     {
@@ -224,6 +224,15 @@
       "retailer": "Bitters & Bottles (SF \u2014 independent)",
       "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
       "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "Stagg (Jr.)",
+      "title": "Stagg Batch 26B 125.2 Proof Kentucky Straight Bourbon Whiskey 750ml",
+      "price": 138.95,
+      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
+      "url": "https://elcerritoliquor.com/products/stagg-jr-barrel-proof-straight-bourbon-batch-26b-125-2-proof",
+      "tier": "FAIR",
       "note": null
     }
   ]

@@ -159,6 +159,11 @@
       "d": "2026-10-06",
       "p": 54.5,
       "r": "Bitters & Bottles (SF \u2014 independent)"
+    },
+    {
+      "d": "2026-10-07",
+      "p": 54.5,
+      "r": "Bitters & Bottles (SF \u2014 independent)"
     }
   ],
   "Blanton's Original": [
@@ -319,6 +324,11 @@
     },
     {
       "d": "2026-10-06",
+      "p": 89.5,
+      "r": "Bitters & Bottles (SF \u2014 independent)"
+    },
+    {
+      "d": "2026-10-07",
       "p": 89.5,
       "r": "Bitters & Bottles (SF \u2014 independent)"
     }
@@ -483,6 +493,11 @@
       "d": "2026-10-06",
       "p": 159.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-10-07",
+      "p": 159.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
     }
   ],
   "E.H. Taylor Small Batch": [
@@ -570,6 +585,18 @@
       "d": "2026-10-06",
       "p": 65.5,
       "r": "Bitters & Bottles (SF \u2014 independent)"
+    },
+    {
+      "d": "2026-10-07",
+      "p": 65.5,
+      "r": "Bitters & Bottles (SF \u2014 independent)"
+    }
+  ],
+  "Stagg (Jr.)": [
+    {
+      "d": "2026-10-07",
+      "p": 138.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
     }
   ]
 }

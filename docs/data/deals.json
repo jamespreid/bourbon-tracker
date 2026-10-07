@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:00:53Z",
+  "generated_at": "2026-10-07T21:00:36Z",
   "sample": false,
   "products": [
     {
@@ -173,30 +173,12 @@
   ],
   "listings": [
     {
-      "product": "Little Book",
-      "title": "2026 Booker's Little Book Chapter 10 All The Wiser Straight Bourbon Whisky",
-      "price": 159.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/little-book-chapter-10-all-the-wiser-blended-straight-whiskey-2026-release",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
       "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
       "title": "Old Fitzgerald BIB 7 Year Bourbon",
       "price": 54.5,
       "retailer": "Bitters & Bottles (SF \u2014 independent)",
       "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
       "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Stagg (Jr.)",
-      "title": "Stagg Batch 26B 125.2 Proof Kentucky Straight Bourbon Whiskey 750ml",
-      "price": 138.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/stagg-jr-barrel-proof-straight-bourbon-batch-26b-125-2-proof",
-      "tier": "FAIR",
       "note": null
     }
   ]

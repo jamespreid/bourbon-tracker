@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T19:01:01Z",
+  "generated_at": "2026-10-07T20:00:53Z",
   "sample": false,
   "products": [
     {
@@ -179,15 +179,6 @@
       "retailer": "El Cerrito Liquor (CA \u2014 independent)",
       "url": "https://elcerritoliquor.com/products/little-book-chapter-10-all-the-wiser-blended-straight-whiskey-2026-release",
       "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Little Book",
-      "title": "Little Book Chapter 10 'All The Wiser' 2026 Release",
-      "price": 179.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
-      "tier": "FAIR",
       "note": null
     },
     {

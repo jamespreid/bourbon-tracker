@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T03:02:41Z",
+  "generated_at": "2026-10-09T04:04:05Z",
   "sample": false,
   "products": [
     {
@@ -174,11 +174,29 @@
   "listings": [
     {
       "product": "Blanton's Original",
+      "title": "Blanton's Single Barrel Bourbon",
+      "price": 89.5,
+      "retailer": "Bitters & Bottles (SF \u2014 independent)",
+      "url": "https://bittersandbottles.com/products/blantons-single-barrel-bourbon",
+      "tier": "FAIR",
+      "note": null
+    },
+    {
+      "product": "Blanton's Original",
       "title": "Blanton's Single Barrel Bourbon Whiskey 750ml",
       "price": 89.99,
       "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
       "url": "https://bassins.com/products/blantons-single-barrel-bourbon-whiskey-750ml",
       "tier": "FAIR",
+      "note": null
+    },
+    {
+      "product": "E.H. Taylor Small Batch",
+      "title": "EH Taylor Small Batch Bottled in Bond Bourbon",
+      "price": 65.5,
+      "retailer": "Bitters & Bottles (SF \u2014 independent)",
+      "url": "https://bittersandbottles.com/products/eh-taylor-small-batch-bottled-in-bond-bourbon",
+      "tier": "STEAL",
       "note": null
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T11:02:52Z",
+  "generated_at": "2026-10-09T12:02:19Z",
   "sample": false,
   "products": [
     {
@@ -174,29 +174,11 @@
   "listings": [
     {
       "product": "Blanton's Original",
-      "title": "Blanton's Single Barrel Bourbon",
-      "price": 89.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/blantons-single-barrel-bourbon",
-      "tier": "FAIR",
-      "note": null
-    },
-    {
-      "product": "Blanton's Original",
       "title": "Blanton's Single Barrel Bourbon Whiskey 750ml",
       "price": 89.99,
       "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
       "url": "https://bassins.com/products/blantons-single-barrel-bourbon-whiskey-750ml",
       "tier": "FAIR",
-      "note": null
-    },
-    {
-      "product": "E.H. Taylor Small Batch",
-      "title": "EH Taylor Small Batch Bottled in Bond Bourbon",
-      "price": 65.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/eh-taylor-small-batch-bottled-in-bond-bourbon",
-      "tier": "STEAL",
       "note": null
     },
     {
@@ -224,15 +206,6 @@
       "retailer": "Nestor Liquor (LA \u2014 independent)",
       "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
       "tier": "FAIR",
-      "note": null
-    },
-    {
-      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
-      "title": "Old Fitzgerald BIB 7 Year Bourbon",
-      "price": 54.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
-      "tier": "STEAL",
       "note": null
     },
     {

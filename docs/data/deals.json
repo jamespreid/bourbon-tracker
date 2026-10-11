@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T16:00:41Z",
+  "generated_at": "2026-10-11T17:00:45Z",
   "sample": false,
   "products": [
     {
@@ -206,15 +206,6 @@
       "retailer": "Nestor Liquor (LA \u2014 independent)",
       "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
       "tier": "FAIR",
-      "note": null
-    },
-    {
-      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
-      "title": "Old Fitzgerald BIB 7 Year Bourbon",
-      "price": 54.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
-      "tier": "STEAL",
       "note": null
     },
     {

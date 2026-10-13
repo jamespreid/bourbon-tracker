@@ -189,6 +189,11 @@
       "d": "2026-10-12",
       "p": 54.5,
       "r": "Bitters & Bottles (SF \u2014 independent)"
+    },
+    {
+      "d": "2026-10-13",
+      "p": 64.99,
+      "r": "MacArthur Beverages (DC \u2014 delivery/pickup)"
     }
   ],
   "Blanton's Original": [
@@ -381,6 +386,11 @@
       "d": "2026-10-12",
       "p": 89.5,
       "r": "Bitters & Bottles (SF \u2014 independent)"
+    },
+    {
+      "d": "2026-10-13",
+      "p": 89.99,
+      "r": "MacArthur Beverages (DC \u2014 delivery/pickup)"
     }
   ],
   "Little Book": [
@@ -573,6 +583,11 @@
       "d": "2026-10-12",
       "p": 154.99,
       "r": "MacArthur Beverages (DC \u2014 delivery/pickup)"
+    },
+    {
+      "d": "2026-10-13",
+      "p": 154.99,
+      "r": "MacArthur Beverages (DC \u2014 delivery/pickup)"
     }
   ],
   "E.H. Taylor Small Batch": [
@@ -720,6 +735,11 @@
     },
     {
       "d": "2026-10-12",
+      "p": 138.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-10-13",
       "p": 138.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
     }

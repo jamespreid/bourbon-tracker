@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T12:00:47Z",
+  "generated_at": "2026-10-18T13:00:49Z",
   "sample": false,
   "products": [
     {
@@ -188,6 +188,15 @@
       "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
       "url": "https://bassins.com/products/blantons-single-barrel-bourbon-whiskey-750ml",
       "tier": "FAIR",
+      "note": null
+    },
+    {
+      "product": "E.H. Taylor Barrel Proof",
+      "title": "Colonel E.H. Taylor Jr. Barrel Proof Batch 15 127.9 Proof  Bourbon Whiskey",
+      "price": 149.95,
+      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
+      "url": "https://elcerritoliquor.com/products/colonel-e-h-taylor-barrel-proof-uncut-unfiltered-kentucky-straight-bourbon-whiskey-750ml-copy",
+      "tier": "GOOD",
       "note": null
     },
     {

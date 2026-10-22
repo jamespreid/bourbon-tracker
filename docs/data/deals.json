@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:00:27Z",
+  "generated_at": "2026-10-22T19:00:05Z",
   "sample": false,
   "products": [
     {
@@ -183,28 +183,10 @@
     },
     {
       "product": "Little Book",
-      "title": "Little Book Chapter #10 (All The Wiser) 2026 Bourbon Whiskey 750ml",
-      "price": 154.99,
-      "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
-      "url": "https://bassins.com/products/little-book-chapter-10-all-the-wiser-2026-bourbon-whiskey-750ml",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Little Book",
       "title": "2026 Booker's Little Book Chapter 10 All The Wiser Straight Bourbon Whisky",
       "price": 159.95,
       "retailer": "El Cerrito Liquor (CA \u2014 independent)",
       "url": "https://elcerritoliquor.com/products/little-book-chapter-10-all-the-wiser-blended-straight-whiskey-2026-release",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Little Book",
-      "title": "Little Book Chapter 10 'All The Wiser' 2026 Release",
-      "price": 169.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
       "tier": "STEAL",
       "note": null
     },

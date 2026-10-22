@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:00:53Z",
+  "generated_at": "2026-10-22T12:00:35Z",
   "sample": false,
   "products": [
     {
@@ -196,15 +196,6 @@
       "price": 65.5,
       "retailer": "Bitters & Bottles (SF \u2014 independent)",
       "url": "https://bittersandbottles.com/products/eh-taylor-small-batch-bottled-in-bond-bourbon",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Little Book",
-      "title": "Little Book Chapter #10 (All The Wiser) 2026 Bourbon Whiskey 750ml",
-      "price": 154.99,
-      "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
-      "url": "https://bassins.com/products/little-book-chapter-10-all-the-wiser-2026-bourbon-whiskey-750ml",
       "tier": "STEAL",
       "note": null
     },

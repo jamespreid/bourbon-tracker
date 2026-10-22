@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:00:30Z",
+  "generated_at": "2026-10-22T22:00:14Z",
   "sample": false,
   "products": [
     {
@@ -187,15 +187,6 @@
       "price": 65.5,
       "retailer": "Bitters & Bottles (SF \u2014 independent)",
       "url": "https://bittersandbottles.com/products/eh-taylor-small-batch-bottled-in-bond-bourbon",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Little Book",
-      "title": "Little Book Chapter 10 'All The Wiser' 2026 Release",
-      "price": 169.99,
-      "retailer": "Nestor Liquor (LA \u2014 independent)",
-      "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
       "tier": "STEAL",
       "note": null
     },

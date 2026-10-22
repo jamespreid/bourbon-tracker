@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:00:05Z",
+  "generated_at": "2026-10-22T20:00:12Z",
   "sample": false,
   "products": [
     {
@@ -187,6 +187,24 @@
       "price": 159.95,
       "retailer": "El Cerrito Liquor (CA \u2014 independent)",
       "url": "https://elcerritoliquor.com/products/little-book-chapter-10-all-the-wiser-blended-straight-whiskey-2026-release",
+      "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "Little Book",
+      "title": "Little Book Chapter 10 'All The Wiser' 2026 Release",
+      "price": 169.99,
+      "retailer": "Nestor Liquor (LA \u2014 independent)",
+      "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
+      "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
+      "title": "Old Fitzgerald BIB 7 Year Bourbon",
+      "price": 54.5,
+      "retailer": "Bitters & Bottles (SF \u2014 independent)",
+      "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
       "tier": "STEAL",
       "note": null
     },

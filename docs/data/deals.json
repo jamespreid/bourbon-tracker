@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:00:29Z",
+  "generated_at": "2026-10-24T11:00:01Z",
   "sample": false,
   "products": [
     {
@@ -171,51 +171,5 @@
       "priority": true
     }
   ],
-  "listings": [
-    {
-      "product": "E.H. Taylor Barrel Proof",
-      "title": "Colonel E.H. Taylor Jr. Barrel Proof Batch 15 127.9 Proof  Bourbon Whiskey",
-      "price": 149.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/colonel-e-h-taylor-barrel-proof-uncut-unfiltered-kentucky-straight-bourbon-whiskey-750ml-copy",
-      "tier": "GOOD",
-      "note": null
-    },
-    {
-      "product": "Little Book",
-      "title": "Little Book Chapter #10 (All The Wiser) 2026 Bourbon Whiskey 750ml",
-      "price": 154.99,
-      "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
-      "url": "https://bassins.com/products/little-book-chapter-10-all-the-wiser-2026-bourbon-whiskey-750ml",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Little Book",
-      "title": "2026 Booker's Little Book Chapter 10 All The Wiser Straight Bourbon Whisky",
-      "price": 159.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/little-book-chapter-10-all-the-wiser-blended-straight-whiskey-2026-release",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
-      "title": "Old Fitzgerald 7 yr Bottled-in Bond Bourbon Whiskey 700ml",
-      "price": 64.99,
-      "retailer": "MacArthur Beverages (DC \u2014 delivery/pickup)",
-      "url": "https://bassins.com/products/old-fitzgerald-7-yr-bottled-in-bond-bourbon-whiskey-700ml",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Stagg (Jr.)",
-      "title": "Stagg Batch 26B 125.2 Proof Kentucky Straight Bourbon Whiskey 750ml",
-      "price": 129.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/stagg-jr-barrel-proof-straight-bourbon-batch-26b-125-2-proof",
-      "tier": "FAIR",
-      "note": null
-    }
-  ]
+  "listings": []
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T09:00:47Z",
+  "generated_at": "2026-10-26T10:00:49Z",
   "sample": false,
   "products": [
     {
@@ -179,6 +179,15 @@
       "retailer": "Bitters & Bottles (SF \u2014 independent)",
       "url": "https://bittersandbottles.com/products/blantons-single-barrel-bourbon",
       "tier": "FAIR",
+      "note": null
+    },
+    {
+      "product": "Buffalo Trace Bourbon",
+      "title": "Buffalo Trace Kentucky Straight Bourbon Whiskey 1Lt",
+      "price": 24.95,
+      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
+      "url": "https://elcerritoliquor.com/products/buffalo-trace-kentucky-straight-bourbon-whiskey-1lt",
+      "tier": "STEAL",
       "note": null
     },
     {

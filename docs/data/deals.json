@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T01:00:54Z",
+  "generated_at": "2026-10-28T02:00:51Z",
   "sample": false,
   "products": [
     {
@@ -197,15 +197,6 @@
       "retailer": "El Cerrito Liquor (CA \u2014 independent)",
       "url": "https://elcerritoliquor.com/products/colonel-e-h-taylor-barrel-proof-uncut-unfiltered-kentucky-straight-bourbon-whiskey-750ml-copy",
       "tier": "GOOD",
-      "note": null
-    },
-    {
-      "product": "E.H. Taylor Small Batch",
-      "title": "EH Taylor Small Batch Bottled in Bond Bourbon",
-      "price": 65.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/eh-taylor-small-batch-bottled-in-bond-bourbon",
-      "tier": "STEAL",
       "note": null
     },
     {

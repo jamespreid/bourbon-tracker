@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T10:00:56Z",
+  "generated_at": "2026-10-30T11:00:37Z",
   "sample": false,
   "products": [
     {
@@ -172,15 +172,6 @@
     }
   ],
   "listings": [
-    {
-      "product": "Blanton's Original",
-      "title": "Blanton's Single Barrel Bourbon",
-      "price": 89.5,
-      "retailer": "Bitters & Bottles (SF \u2014 independent)",
-      "url": "https://bittersandbottles.com/products/blantons-single-barrel-bourbon",
-      "tier": "FAIR",
-      "note": null
-    },
     {
       "product": "Buffalo Trace Bourbon",
       "title": "Buffalo Trace Kentucky Straight Bourbon Whiskey 1Lt",

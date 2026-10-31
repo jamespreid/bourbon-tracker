@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:00:08Z",
+  "generated_at": "2026-10-31T01:00:25Z",
   "sample": false,
   "products": [
     {
@@ -171,5 +171,33 @@
       "priority": true
     }
   ],
-  "listings": []
+  "listings": [
+    {
+      "product": "Little Book",
+      "title": "Little Book Chapter 10 'All The Wiser' 2026 Release",
+      "price": 169.99,
+      "retailer": "Nestor Liquor (LA \u2014 independent)",
+      "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
+      "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
+      "title": "Old Fitzgerald BIB 7 Year Bourbon",
+      "price": 54.5,
+      "retailer": "Bitters & Bottles (SF \u2014 independent)",
+      "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
+      "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "Stagg (Jr.)",
+      "title": "Stagg Kentucky Straight Bourbon Batch 26C 124.6 Proof",
+      "price": 129.99,
+      "retailer": "Nestor Liquor (LA \u2014 independent)",
+      "url": "https://nestorliquor.com/products/stagg-kentucky-straight-bourbon-batch-26c-124-6-proof",
+      "tier": "FAIR",
+      "note": null
+    }
+  ]
 }

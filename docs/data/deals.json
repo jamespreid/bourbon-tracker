@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T10:00:05Z",
+  "generated_at": "2026-11-02T11:00:03Z",
   "sample": false,
   "products": [
     {
@@ -171,42 +171,5 @@
       "priority": true
     }
   ],
-  "listings": [
-    {
-      "product": "Buffalo Trace Bourbon",
-      "title": "Buffalo Trace Kentucky Straight Bourbon Whiskey 1Lt",
-      "price": 24.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/buffalo-trace-kentucky-straight-bourbon-whiskey-1lt",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "E.H. Taylor Barrel Proof",
-      "title": "Colonel E.H. Taylor Jr. Barrel Proof Batch 15 127.9 Proof  Bourbon Whiskey",
-      "price": 149.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/colonel-e-h-taylor-barrel-proof-uncut-unfiltered-kentucky-straight-bourbon-whiskey-750ml-copy",
-      "tier": "GOOD",
-      "note": null
-    },
-    {
-      "product": "Little Book",
-      "title": "2026 Booker's Little Book Chapter 10 All The Wiser Straight Bourbon Whisky",
-      "price": 159.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/little-book-chapter-10-all-the-wiser-blended-straight-whiskey-2026-release",
-      "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Stagg (Jr.)",
-      "title": "Stagg Batch 26B 125.2 Proof Kentucky Straight Bourbon Whiskey 750ml",
-      "price": 129.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/stagg-jr-barrel-proof-straight-bourbon-batch-26b-125-2-proof",
-      "tier": "FAIR",
-      "note": null
-    }
-  ]
+  "listings": []
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T21:00:02Z",
+  "generated_at": "2026-11-02T22:00:04Z",
   "sample": false,
   "products": [
     {
@@ -171,5 +171,15 @@
       "priority": true
     }
   ],
-  "listings": []
+  "listings": [
+    {
+      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
+      "title": "Old Fitzgerald BIB 7 Year Bourbon",
+      "price": 54.5,
+      "retailer": "Bitters & Bottles (SF \u2014 independent)",
+      "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
+      "tier": "STEAL",
+      "note": null
+    }
+  ]
 }

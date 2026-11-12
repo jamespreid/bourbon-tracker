@@ -938,6 +938,11 @@
       "d": "2026-11-11",
       "p": 159.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-11-12",
+      "p": 159.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
     }
   ],
   "E.H. Taylor Small Batch": [
@@ -1312,6 +1317,11 @@
       "d": "2026-11-11",
       "p": 129.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-11-12",
+      "p": 129.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
     }
   ],
   "E.H. Taylor Barrel Proof": [
@@ -1439,6 +1449,11 @@
       "d": "2026-11-11",
       "p": 149.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-11-12",
+      "p": 149.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
     }
   ],
   "Buffalo Trace Bourbon": [
@@ -1524,6 +1539,11 @@
     },
     {
       "d": "2026-11-11",
+      "p": 24.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-11-12",
       "p": 24.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
     }

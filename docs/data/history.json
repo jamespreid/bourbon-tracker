@@ -978,6 +978,11 @@
       "d": "2026-11-16",
       "p": 159.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-11-17",
+      "p": 159.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
     }
   ],
   "E.H. Taylor Small Batch": [
@@ -1377,6 +1382,11 @@
       "d": "2026-11-16",
       "p": 129.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-11-17",
+      "p": 129.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
     }
   ],
   "E.H. Taylor Barrel Proof": [
@@ -1619,6 +1629,11 @@
     },
     {
       "d": "2026-11-16",
+      "p": 24.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-11-17",
       "p": 24.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
     }

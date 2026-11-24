@@ -1487,6 +1487,11 @@
       "d": "2026-11-23",
       "p": 129.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-11-24",
+      "p": 129.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
     }
   ],
   "E.H. Taylor Barrel Proof": [
@@ -1764,6 +1769,11 @@
     },
     {
       "d": "2026-11-23",
+      "p": 24.95,
+      "r": "El Cerrito Liquor (CA \u2014 independent)"
+    },
+    {
+      "d": "2026-11-24",
       "p": 24.95,
       "r": "El Cerrito Liquor (CA \u2014 independent)"
     }

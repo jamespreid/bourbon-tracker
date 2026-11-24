@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T13:00:03Z",
+  "generated_at": "2026-11-24T14:00:16Z",
   "sample": false,
   "products": [
     {
@@ -173,21 +173,12 @@
   ],
   "listings": [
     {
-      "product": "Buffalo Trace Bourbon",
-      "title": "Buffalo Trace Kentucky Straight Bourbon Whiskey 1Lt",
-      "price": 24.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/buffalo-trace-kentucky-straight-bourbon-whiskey-1lt",
+      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
+      "title": "Old Fitzgerald BIB 7 Year Bourbon",
+      "price": 54.5,
+      "retailer": "Bitters & Bottles (SF \u2014 independent)",
+      "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
       "tier": "STEAL",
-      "note": null
-    },
-    {
-      "product": "Stagg (Jr.)",
-      "title": "Stagg Batch 26B 125.2 Proof Kentucky Straight Bourbon Whiskey 750ml",
-      "price": 129.95,
-      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
-      "url": "https://elcerritoliquor.com/products/stagg-jr-barrel-proof-straight-bourbon-batch-26b-125-2-proof",
-      "tier": "FAIR",
       "note": null
     }
   ]

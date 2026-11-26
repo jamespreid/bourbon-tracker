@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:00:02Z",
+  "generated_at": "2026-11-26T20:00:47Z",
   "sample": false,
   "products": [
     {
@@ -171,5 +171,69 @@
       "priority": true
     }
   ],
-  "listings": []
+  "listings": [
+    {
+      "product": "Blanton's Original",
+      "title": "Blanton's Single Barrel Bourbon",
+      "price": 89.5,
+      "retailer": "Bitters & Bottles (SF \u2014 independent)",
+      "url": "https://bittersandbottles.com/products/blantons-single-barrel-bourbon",
+      "tier": "FAIR",
+      "note": null
+    },
+    {
+      "product": "Buffalo Trace Bourbon",
+      "title": "Buffalo Trace Kentucky Straight Bourbon Whiskey 1Lt",
+      "price": 24.95,
+      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
+      "url": "https://elcerritoliquor.com/products/buffalo-trace-kentucky-straight-bourbon-whiskey-1lt",
+      "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "E.H. Taylor Small Batch",
+      "title": "EH Taylor Small Batch Bottled in Bond Bourbon",
+      "price": 59.5,
+      "retailer": "Bitters & Bottles (SF \u2014 independent)",
+      "url": "https://bittersandbottles.com/products/eh-taylor-small-batch-bottled-in-bond-bourbon",
+      "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "Little Book",
+      "title": "Little Book Chapter 10 'All The Wiser' 2026 Release",
+      "price": 169.99,
+      "retailer": "Nestor Liquor (LA \u2014 independent)",
+      "url": "https://nestorliquor.com/products/little-book-chapter-10-all-the-wiser-2026-release",
+      "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "Old Fitzgerald 7 Year Bottled-in-Bond",
+      "title": "Old Fitzgerald BIB 7 Year Bourbon",
+      "price": 54.5,
+      "retailer": "Bitters & Bottles (SF \u2014 independent)",
+      "url": "https://bittersandbottles.com/products/old-fitzgerald-bib-7-year-bourbon",
+      "tier": "STEAL",
+      "note": null
+    },
+    {
+      "product": "Stagg (Jr.)",
+      "title": "Stagg Batch 26B 125.2 Proof Kentucky Straight Bourbon Whiskey 750ml",
+      "price": 129.95,
+      "retailer": "El Cerrito Liquor (CA \u2014 independent)",
+      "url": "https://elcerritoliquor.com/products/stagg-jr-barrel-proof-straight-bourbon-batch-26b-125-2-proof",
+      "tier": "FAIR",
+      "note": null
+    },
+    {
+      "product": "Stagg (Jr.)",
+      "title": "Stagg Kentucky Straight Bourbon Batch 26D 122.1 Proof",
+      "price": 129.99,
+      "retailer": "Nestor Liquor (LA \u2014 independent)",
+      "url": "https://nestorliquor.com/products/stagg-kentucky-straight-bourbon-batch-26d-122-1-proof",
+      "tier": "FAIR",
+      "note": null
+    }
+  ]
 }
